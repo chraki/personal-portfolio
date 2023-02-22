@@ -18,10 +18,10 @@ const App = () => {
     <>
       <Header setToggle={setToggle} />
       <About scrollRef={ toggle === 'About' ? ref : null} />
-      <Education scrollRef={ toggle == 'Education' ? ref : null} />
-      <Experience scrollRef={ toggle == 'Experience' ? ref : null} />
-      <Projects  scrollRef={ toggle == 'Projects' ? ref : null}/>
-      <Contact scrollRef={ toggle == 'Contact' ? ref : null} />
+      <Education scrollRef={ toggle === 'Education' ? ref : null} />
+      <Experience scrollRef={ toggle === 'Experience' ? ref : null} />
+      <Projects  scrollRef={ toggle === 'Projects' ? ref : null}/>
+      <Contact scrollRef={ toggle === 'Contact' ? ref : null} />
     </>
   )
 }

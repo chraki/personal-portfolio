@@ -18,17 +18,17 @@ const Education = (props) => {
     <li className={styles.eduDetails}>
         <p className={styles.year}>2011 - 2014,</p>
         <p className={styles.companyOrInstitute}>Aditya Insitute of Technology And Mangement, Tekkali,</p>
-        <p className={styles.education}>I have pursued Bachelor of Technology in Mechanical Engineering with 73.7%.</p>
+        <p className={styles.education}>I have pursued Bachelor of Technology in Mechanical Engineering.</p>
     </li>
     <li className={styles.eduDetails}>
         <p className={styles.year}>2008 - 2011,</p>
         <p className={styles.companyOrInstitute}>Government Polytechnic College Mahabubnagar,</p>
-        <p className={styles.education}>Completed Diploma in Mechanical Engineering with 80.20%.</p>
+        <p className={styles.education}>Completed Diploma in Mechanical Engineering.</p>
     </li>
     <li className={styles.eduDetails}>
         <p className={styles.year}>2008</p>
         <p className={styles.companyOrInstitute}>Viswa Santhi Public School, Polaki,</p>
-        <p className={styles.education}>Completed schooling in Viswa santhi public school with 87.5%.</p>
+        <p className={styles.education}>Completed schooling in Viswa santhi public school.</p>
     </li>
   </Col>
     </Col>
